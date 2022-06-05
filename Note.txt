@@ -1,0 +1,21 @@
+-------- Object Detection --------
+
+Environment (TWCC Container):
+
+pytorch-21.06-py3:latest
+
+Command: 
+
+pip3 install pipenv
+cd OBJECT_DETECTION_FOLDER
+
+pipenv --python 3.8
+pipenv shell
+pipenv install --skip-lock
+git clone https://github.com/open-mmlab/mmdetection.git
+cd mmdetection
+python setup.py develop
+cd ..
+sudo apt-get update
+sudo apt-get install ffmpeg libsm6 libxext6  -y
+python demo_coco.py
