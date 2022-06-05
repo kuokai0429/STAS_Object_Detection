@@ -7,16 +7,18 @@ pytorch-21.06-py3:latest <br>
 
 ### Command: 
 
-git clone https://github.com/kuokai0429/STAS_Object_Detection.git <br>
-pip3 install pipenv <br>
-cd STAS_Object_Detection <br>
-pipenv --python 3.8 <br>
-pipenv shell <br>
-pipenv install --skip-lock <br>
-git clone https://github.com/open-mmlab/mmdetection.git <br>
-cd mmdetection <br>
-python setup.py develop <br>
-cd .. <br>
-sudo apt-get update <br>
-sudo apt-get install ffmpeg libsm6 libxext6  -y <br>
-python demo_coco.py <br>
+```
+git clone https://github.com/kuokai0429/STAS_Object_Detection.git
+pip3 install pipenv
+cd STAS_Object_Detection
+pipenv --python 3.8
+pipenv shell
+pipenv install --skip-lock
+git clone https://github.com/open-mmlab/mmdetection.git
+cd mmdetection
+python setup.py develop
+cd ..
+sudo apt-get update
+sudo apt-get install ffmpeg libsm6 libxext6  -y
+python demo_coco.py
+```
