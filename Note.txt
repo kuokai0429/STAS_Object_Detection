@@ -6,9 +6,9 @@ pytorch-21.06-py3:latest
 
 Command: 
 
+git clone https://github.com/kuokai0429/STAS_Object_Detection.git
 pip3 install pipenv
-cd OBJECT_DETECTION_FOLDER
-
+cd STAS_Object_Detection
 pipenv --python 3.8
 pipenv shell
 pipenv install --skip-lock
