@@ -39,7 +39,9 @@ sudo apt-get update
 sudo apt-get install ffmpeg libsm6 libxext6  -y
 ```
 
-Step 4. Download Configurations, Pretrained Weights and Datasets from shared Google Drive (https://drive.google.com/file/d/1xBELX0HR1kkloxPZc-m_rjxWKAZNqITP/view?usp=sharing)
+Step 4. Download Configurations, Pretrained Weights and Datasets from shared Google Drive 
+> ***Source:*** <br> https://drive.google.com/file/d/1xBELX0HR1kkloxPZc-m_rjxWKAZNqITP/view?usp=sharing
+
 ```
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1xBELX0HR1kkloxPZc-m_rjxWKAZNqITP' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1xBELX0HR1kkloxPZc-m_rjxWKAZNqITP" -O STAS_OBJ_Data.zip && rm -rf /tmp/cookies.txt
 ```
